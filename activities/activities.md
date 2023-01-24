@@ -375,7 +375,7 @@ Your index.html would look like this:
 
 ```jinja
 {% extends 'layout.html' %} 
-{% set title = 'Iris Home' %} 
+{% set title = 'Paralympics Home' %} 
 {% block content %} 
     <p>Hello, World!</p>
 {% endblock %}
@@ -383,4 +383,12 @@ Your index.html would look like this:
 
 Check the app is running. If it has stopped then in VS Code Terminal enter:
 
-`python -m flask --app 'iris_app:create_app()' --debug run`
+`python -m flask --app 'paralympic_app:create_app()' --debug run`
+
+## Knowledge check
+
+- Be able to create routes in Flask that accept one or more HTTP methods
+- Be able to create parent and child Jinja/HTML templates
+- Be able to create a route that renders a template that contains a Jinja expression
+- Know what Jinja expressions and statements are typically used for
+- Know how to start defining a route from the REST API design
