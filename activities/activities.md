@@ -3,9 +3,11 @@
 Contents:
 
 - [Data sets](#data-sets)
+
 Iris machine learning app activities:
 - [Activity 1: Add routes to the Iris ML app (60 mins)](#activity-1-iris-ml-app-create-a-route-to-predict-the-iris-type)
 - [Activity 2: Create Jinja templates for the Iris ML app(45 mins)](#activity-2-create-jinja-templates-for-the-iris-ml-app)
+
 Paralympic REST API app activities:
 - [Activity 1: Add routes to the Paralympics REST API app (60 mins)](#activity-1-paralympics-rest-api-app-create-skeleton-routes-for-the-rest-api)
 - [Activity 2: Create Jinja templates for the REST API app(45 mins)](#activity-2-create-jinja-templates-for-the-rest-api-app)
