@@ -2,9 +2,30 @@
 
 ## Set-up
 
-You will need to a Python environment e.g create and activate a venv.
+1. You will need to a Python environment e.g create and activate a venv.
 
-Install the Python packages using the requirements.txt file in the environment, e.g. `pip3 install -r requirements.txt`
+2. Install the Python packages using the requirements.txt file in the environment, e.g. `pip3 install -r requirements.txt`
+
+NOTE: If at step 1 above if you wish to use poetry rather than venv, then create a `pyproject.toml` file **and** delete setup.py.
+
+```toml
+[tool.poetry]
+name = "comp0034-week7"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+flask = "^2.2.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+pylint = "^2.16"
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+```
 
 ## Dataset
 
