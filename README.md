@@ -4,9 +4,11 @@
 
 1. You will need to a Python environment e.g create and activate a venv.
 
-2. Install the Python packages using the requirements.txt file in the environment, e.g. `pip3 install -r requirements.txt`
+2. Install the Python packages using the requirements.txt file in the environment, e.g. `pip install -r requirements.txt` or `pip3 install -r requirements.txt`
 
-NOTE: If at step 1 above if you wish to use poetry rather than venv, then create a `pyproject.toml` file **and** delete setup.py.
+3. Install the editable project code, e.g. `pip install -e .`
+
+NOTE: If at step 1 above if you wish to use `poetry` rather than `venv`, then create a `pyproject.toml` file, e.g.
 
 ```toml
 [tool.poetry]
@@ -29,7 +31,7 @@ build-backend = "poetry.core.masonry.api"
 
 ## Dataset
 
-The dataset was published with a CC0: Public Domain license. No attribution required.
+The paralympic dataset was published with a CC0: Public Domain license. No attribution required.
 
 ## Week 6 solutions
 
