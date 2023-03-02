@@ -2,32 +2,13 @@
 
 ## Set-up
 
-1. You will need to a Python environment e.g create and activate a venv.
+1. You will need to a Python environment e.g [create](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment) and [activate](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#activating-a-virtual-environment) a venv.
 
-2. Install the Python packages using the requirements.txt file in the environment, e.g. `pip install -r requirements.txt` or `pip3 install -r requirements.txt`
+2. Make sure you venv (or alternative) is Active. Then install the Python packages using the requirements.txt file in the environment, e.g. `pip install -r requirements.txt` or `pip3 install -r requirements.txt`
 
 3. Install the editable project code, e.g. `pip install -e .`
 
-NOTE: If at step 1 above if you wish to use `poetry` rather than `venv`, then create a `pyproject.toml` file, e.g.
-
-```toml
-[tool.poetry]
-name = "comp0034-week7"
-
-[tool.poetry.dependencies]
-python = "^3.7"
-flask = "^2.2.2"
-
-[tool.poetry.dev-dependencies]
-pytest = "^4.6"
-pylint = "^2.16"
-black = "^23.1.0"
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
-
-```
+NOTE: If at step 1 above if you wish to use `poetry` rather than `venv`, then rename `pyproject.txt` to `pyproject.toml` first.
 
 ## Dataset
 
